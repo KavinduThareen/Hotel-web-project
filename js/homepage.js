@@ -125,5 +125,3 @@ video.addEventListener('ended', function () {
 }, false);
 
 
-console.log("hiiiii");
-console.log("hey");

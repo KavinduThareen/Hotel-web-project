@@ -117,11 +117,38 @@ window.onload = animateAlarm;
 
 
 
+//non stop play video js
 
 const video = document.getElementById('myVideo');
 video.addEventListener('ended', function () {
     this.currentTime = 0;
     this.play();
 }, false);
+
+
+// // Function to show the popup ad when the page loads
+// $(document).ready(function() {
+//     $('#popupModal').modal('show');
+// });
+
+
+
+
+
+
+
+// add close js
+
+// function closeCard() {
+//     var card = document.getElementById('offer-card-1');
+//     card.style.display = 'none';
+// }
+
+function closeCard() {
+    var card = document.getElementById('offer-card-1');
+    card.style.display = 'none';
+}
+
+
 
 

@@ -38,6 +38,7 @@ header {
     animation-fill-mode: forwards;
 } */
 
+/* =========== this is spectiol offers ads ============ */
 
 @keyframes slideInFromTop {
     0% {
@@ -90,7 +91,7 @@ header {
     cursor: pointer;
 }
 
-
+/* ======================================================== */
 
 
 .navbar-nav a {

@@ -137,12 +137,7 @@ video.addEventListener('ended', function () {
 
 
 
-// add close js
-
-// function closeCard() {
-//     var card = document.getElementById('offer-card-1');
-//     card.style.display = 'none';
-// }
+// add close js  THIS IS special offers ADS
 
 function closeCard() {
     var card = document.getElementById('offer-card-1');

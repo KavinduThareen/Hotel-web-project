@@ -18,7 +18,13 @@ header {
 }
 
 
-/* 
+
+
+
+
+
+
+
 
 @keyframes slideInFromLeft {
     0% {
@@ -33,10 +39,28 @@ header {
 }
 
 
-.card{
-    animation: slideInFromLeft 0.5s ease-in-out forwards;
+
+.nav-item,
+.social-platforms,
+/* .carousel-inner, */
+.date-selector,
+.date-selector-2,
+.navbar-brand,
+.select-wrapper,
+.select-wrapper-2,
+.btn{
+    animation: slideInFromLeft 2s ease-in-out forwards;
     animation-fill-mode: forwards;
-} */
+}
+
+
+
+.carousel-inner
+{
+    animation: slideInFromLeft 2.5s ease-in-out forwards;
+    animation-fill-mode: forwards;
+}
+
 
 /* =========== this is spectiol offers ads ============ */
 
@@ -53,7 +77,7 @@ header {
 }
 
 .card {
-    animation: slideInFromTop 1s ease-in-out forwards;
+    animation: slideInFromTop 2.5s ease-in-out forwards;
     animation-fill-mode: forwards;
 }
 

@@ -48,6 +48,7 @@ header {
 .navbar-brand,
 .select-wrapper,
 .select-wrapper-2,
+.titel,
 .btn{
     animation: slideInFromLeft 2s ease-in-out forwards;
     animation-fill-mode: forwards;
@@ -123,7 +124,7 @@ header {
 
 
 .card {
-    animation: fadeInDown 2.5s ease-in-out forwards;
+    animation: fadeInDown 1.5s ease-in-out forwards;
     animation-fill-mode: forwards;
 }
 
@@ -394,7 +395,7 @@ select:focus {
 
 .wedding-summery-box {
     animation: fadeInAnimation 5s ease forwards;
-    display: none; /* Hide the element by default */
+    display: none; 
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -411,6 +412,7 @@ select:focus {
    margin-left: 5%;
    margin-top: 6%;
 }
+
 
 
 .titel{

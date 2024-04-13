@@ -83,7 +83,7 @@ header {
     width: 32rem;
     position: fixed;
     top: 25%;
-    left: 35%;
+    left: 39%;
     transform: translate(-50%, -50%);
     background-color: white;
     border: 1px solid #ccc;
@@ -327,6 +327,40 @@ select:focus {
 /* ========== wedding Summery ================ */
 
 
+/* ////////// */
+
+#body-text {
+    position: relative; 
+}
+
+#body-text::before {
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Assest/pexels-evie-shaffer-2395249.jpg');
+    background-size: cover; 
+    background-position: center; 
+    opacity: 0.1; 
+    z-index: -1; 
+}
+
+
+#wedding-summery-box {
+    position: relative;
+    z-index: 1; 
+
+}
+
+/* ///////////////////////////// */
+
+
+
+
+
+
 #body-text h1{
     /* font-weight: bold; */
     text-align: center;
@@ -347,23 +381,24 @@ select:focus {
     text-align: center; /* Center text inside the box */
 }
 
-@keyframes slideInFromTop {
-    0% {
-        transform: translateY(-100%);
+
+
+@keyframes fadeInAnimation {
+    from {
         opacity: 0;
     }
-
-    100% {
-        transform: translateY(0);
+    to {
         opacity: 1;
     }
 }
 
 .wedding-summery-box {
-    animation: slideInFromTop 1s ease-in-out forwards;
-    animation-fill-mode: forwards;
+    animation: fadeInAnimation 5s ease forwards;
+    display: none; /* Hide the element by default */
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
-
 
 
 /* ===== packeges=============================================================================== */
@@ -380,7 +415,7 @@ select:focus {
 
 .titel{
     margin-left: 5%;
-    margin-top: 8%;
+    margin-top: 6%;
     text-align: center;
     font-family: "Kalam", cursive;
     font-weight: bold;  

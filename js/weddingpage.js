@@ -1,8 +1,12 @@
   // Show the popup ad when the page loads
+  
   $(document).ready(function() {
     $('#popupModal').modal('show');
 });
 
+
+
+// number copy
 
 document.addEventListener("DOMContentLoaded", function () {
     // Get the phone icon element
@@ -45,7 +49,17 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+// ad close
+
 function closeCard() {
     document.getElementById('offer-card-1').style.display = 'none';
     document.querySelector('.ad-overlay').style.display = 'none'; // Hide the overlay
 }
+
+
+
+// wedding summery animation
+
+$(document).ready(function() {
+    $('.wedding-summery-box').show();
+});

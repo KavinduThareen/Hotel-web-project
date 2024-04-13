@@ -19,13 +19,6 @@ header {
 
 
 
-
-
-
-
-
-
-
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
@@ -316,7 +309,7 @@ select:focus {
 .body-h2 {
     font-size: 45px;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 4%;
     font-family: "Rajdhani", sans-serif;
 
 }
@@ -340,7 +333,7 @@ select:focus {
 .read-more-content {
     display: none;
     font-family: "Nanum Gothic", sans-serif;
-    color: #6e6e6e;
+    color: #464646;
     font-size: 20PX;
     /* Hide content by default */
 }
@@ -348,7 +341,8 @@ select:focus {
 .read-more-toggle {
     cursor: pointer;
     color: rgb(0, 0, 0);
-    margin-left: 45%;
+    margin-left: 47%;
+    
 }
 
 

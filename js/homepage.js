@@ -7,6 +7,17 @@ $(document).ready(function () {
     });
 });
 
+
+
+
+
+
+
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
     // Get the phone icon element
     var phoneIcon = document.getElementById("phoneIcon");

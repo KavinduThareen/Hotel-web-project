@@ -347,3 +347,48 @@ select:focus {
     text-align: center; /* Center text inside the box */
 }
 
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.wedding-summery-box {
+    animation: slideInFromTop 1s ease-in-out forwards;
+    animation-fill-mode: forwards;
+}
+
+
+
+/* ===== packeges=============================================================================== */
+
+
+#packeges{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+   margin-left: 5%;
+   margin-top: 6%;
+}
+
+
+.titel{
+    margin-left: 5%;
+    margin-top: 8%;
+    text-align: center;
+    font-family: "Kalam", cursive;
+    font-weight: bold;  
+}
+
+
+footer{
+    background-color: #000000;
+    margin-top: 10%;
+    height: 500px;
+}

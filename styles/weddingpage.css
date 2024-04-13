@@ -320,3 +320,30 @@ select:focus {
 
 }
 
+
+
+
+
+/* ========== wedding Summery ================ */
+
+
+#body-text h1{
+    /* font-weight: bold; */
+    text-align: center;
+    margin-top: 3%;   
+    font-family: "Kalam", cursive;
+    font-weight: bold;  
+}
+
+#body-text p{
+    /* font-weight: bold; */
+    margin-top: 2%;
+    
+}
+
+.wedding-summery-box {
+    width: 1550px;
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text inside the box */
+}
+

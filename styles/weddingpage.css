@@ -412,7 +412,7 @@ select:focus {
     grid-template-columns: repeat(1, 1fr);
     gap: 5%;
     margin-left: 13%;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 #packeges .card{
@@ -425,7 +425,7 @@ select:focus {
 }
 
 .titel {
-    margin-left: 13%;
+    margin-left: 13.5%;
     margin-top: 10%;
     font-family: "Kalam", cursive;
     font-weight: bold;

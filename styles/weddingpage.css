@@ -49,15 +49,14 @@ header {
 .select-wrapper,
 .select-wrapper-2,
 .titel,
-.btn{
+.btn {
     animation: slideInFromLeft 2s ease-in-out forwards;
     animation-fill-mode: forwards;
 }
 
 
 
-.carousel-inner
-{
+.carousel-inner {
     animation: slideInFromLeft 2.5s ease-in-out forwards;
     animation-fill-mode: forwards;
 }
@@ -83,8 +82,8 @@ header {
 #offer-card-1 {
     width: 32rem;
     position: fixed;
-    top: 25%;
-    left: 39%;
+    top: 20%;
+    left: 37%;
     transform: translate(-50%, -50%);
     background-color: white;
     border: 1px solid #ccc;
@@ -104,9 +103,9 @@ header {
     cursor: pointer;
 }
 
-#offer-card-1 .btn{
+#offer-card-1 .btn {
     float: right;
-    margin-top: 5%  ;
+    margin-top: 5%;
 }
 
 /* Animation */
@@ -331,27 +330,27 @@ select:focus {
 /* ////////// */
 
 #body-text {
-    position: relative; 
+    position: relative;
 }
 
 #body-text::before {
     content: '';
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-image: url('/Assest/pexels-evie-shaffer-2395249.jpg');
-    background-size: cover; 
-    background-position: center; 
-    opacity: 0.1; 
-    z-index: -1; 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1;
 }
 
 
 #wedding-summery-box {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
 }
 
@@ -362,24 +361,26 @@ select:focus {
 
 
 
-#body-text h1{
+#body-text h1 {
     /* font-weight: bold; */
     text-align: center;
-    margin-top: 3%;   
+    margin-top: 3%;
     font-family: "Kalam", cursive;
-    font-weight: bold;  
+    font-weight: bold;
 }
 
-#body-text p{
+#body-text p {
     /* font-weight: bold; */
     margin-top: 2%;
-    
+
 }
 
 .wedding-summery-box {
     width: 1550px;
-    margin: 0 auto; /* Center horizontally */
-    text-align: center; /* Center text inside the box */
+    margin: 0 auto;
+    /* Center horizontally */
+    text-align: center;
+    /* Center text inside the box */
 }
 
 
@@ -388,6 +389,7 @@ select:focus {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -395,7 +397,7 @@ select:focus {
 
 .wedding-summery-box {
     animation: fadeInAnimation 5s ease forwards;
-    display: none; 
+    display: none;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -405,27 +407,26 @@ select:focus {
 /* ===== packeges=============================================================================== */
 
 
-#packeges{
+#packeges {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 5%;
-   margin-left: 5%;
-   margin-top: 6%;
+    margin-left: 13%;
+    margin-top: 5%;
 }
 
 
 
-.titel{
-    margin-left: 5%;
-    margin-top: 6%;
-    text-align: center;
-    font-family: "Kalam", cursive;
-    font-weight: bold;  
-}
-
-
-footer{
-    background-color: #000000;
+.titel {
+    margin-left: 13%;
     margin-top: 10%;
+    font-family: "Kalam", cursive;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #000000;
+    margin-top: 5%;
     height: 500px;
 }

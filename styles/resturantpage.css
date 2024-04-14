@@ -364,7 +364,7 @@ select:focus {
     background-image: url('/Assest/food3.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    opacity: 0.2;
     /* Adjust opacity as needed */
     z-index: -1;
 }

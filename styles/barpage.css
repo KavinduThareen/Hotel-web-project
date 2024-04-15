@@ -336,6 +336,7 @@ select:focus {
     font-size: 19px;
     text-align: center;
     margin-top: 2%;
+    font-weight: 500;
 }
 
 #summery-text .body-summery {
@@ -398,6 +399,7 @@ select:focus {
     background-color: #e6e6e6;
 }
 
+/* ==thi is  backgroun imge ========= */
 #gallury::before {
     content: "";
     position: absolute;
@@ -412,19 +414,19 @@ select:focus {
     z-index: -1;
 }
 
-
+/* ============================================== */
 
 
 
 .gallury-titel {
-    margin-top: 5%;
+    margin-top: 7%;
     font-family: "Philosopher", sans-serif;
     text-align: center;
 }
 
 #gallury .img-1{
     width: 1400px;
-    height: auto;
+    height: 650px;
     margin-top: 3%;
     margin-left: 15%;
     border-radius: 1%;
@@ -436,6 +438,7 @@ select:focus {
 
 .gallury-list img{
     width: 230px;
+    height: 180px;
 }
 
 

@@ -57,7 +57,7 @@ header {
 
 
 .carousel-inner {
-    animation: slideInFromLeft 2.5s ease-in-out forwards;
+    animation: fadeInDown 0.5s ease-in-out forwards;
     animation-fill-mode: forwards;
 }
 
@@ -353,7 +353,7 @@ select:focus {
     width: 200px;
     text-align: center;
     height: 80px;
-    margin-left: 12%;
+    margin-left: 22%;
     background-color: #acacac;
     border-radius: 10px 0px 0px 10px;
     font-family: "EB Garamond", serif;
@@ -368,10 +368,10 @@ select:focus {
 
 
 #box-2{
-    width: 1300px;
+    width: 900px;
     height: 80px;
     border: 1px  solid black;
-    margin-left: 22.4%;
+    margin-left: 32.4%;
     margin-top: -4.1%;
     display: flex;
     justify-content: center;
@@ -395,10 +395,7 @@ select:focus {
 /* ======= gallury ==================================================== */
 
 #gallury {
-    position: relative;
-    /* Ensure the container is positioned */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    background-color: #e6e6e6;
 }
 
 #gallury::before {
@@ -408,22 +405,11 @@ select:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/Assest/food3.jpg');
+    background-image: url('/Assest/bar6.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0.2;
-    /* Adjust opacity as needed */
     z-index: -1;
-}
-
-.card {
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.8);
-    /* Adjust card background color and opacity */
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 10 10 20px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -431,17 +417,27 @@ select:focus {
 
 
 .gallury-titel {
-    margin-top: 7%;
+    margin-top: 5%;
     font-family: "Philosopher", sans-serif;
     text-align: center;
 }
 
-#gallury .card {
-    margin-top: 12%;
-    margin-left: 10%;
-    gap: 8%;
-
+#gallury .img-1{
+    width: 1400px;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 15%;
+    border-radius: 1%;
 }
+.gallury-list{
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+.gallury-list img{
+    width: 230px;
+}
+
 
 /* ====== footer ============= */
 

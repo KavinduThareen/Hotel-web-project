@@ -346,6 +346,52 @@ select:focus {
 }
 
 
+/* ============= openin ========================================================= */
+
+.box-1 {
+    margin-top: 7%;
+    width: 200px;
+    text-align: center;
+    height: 80px;
+    margin-left: 12%;
+    background-color: #acacac;
+    border-radius: 10px 0px 0px 10px;
+    font-family: "EB Garamond", serif;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.box-1 h4 {
+    margin: 0; /* Remove default margin */
+}
+
+
+#box-2{
+    width: 1300px;
+    height: 80px;
+    border: 1px  solid black;
+    margin-left: 22.4%;
+    margin-top: -4.1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    font-family: "EB Garamond", serif;
+    
+}
+
+#box-2 h5 {
+    padding-right: 90px; /* Adjust the padding to set the desired gap */
+}
+
+#box-2 i{
+    margin-right: 1%;
+    font-size: 20px;
+}
+
+
+
 /* ======= gallury ==================================================== */
 
 #gallury {
@@ -385,7 +431,7 @@ select:focus {
 
 
 .gallury-titel {
-    margin-top: 8%;
+    margin-top: 7%;
     font-family: "Philosopher", sans-serif;
     text-align: center;
 }

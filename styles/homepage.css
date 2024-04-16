@@ -41,15 +41,14 @@ header {
 .navbar-brand,
 .select-wrapper,
 .select-wrapper-2,
-.btn{
+.btn {
     animation: slideInFromLeft 2s ease-in-out forwards;
     animation-fill-mode: forwards;
 }
 
 
 
-.carousel-inner
-{
+.carousel-inner {
     animation: slideInFromLeft 2.5s ease-in-out forwards;
     animation-fill-mode: forwards;
 }
@@ -76,14 +75,15 @@ header {
 
 
 
-#offer-card-1{
+#offer-card-1 {
     position: fixed;
     margin-top: -36%;
     z-index: 1000;
     margin-left: 77%;
     border: 1px solid rgb(190, 190, 190);
-    
+
 }
+
 /* 
 #offer-card-1 {
     position: relative;
@@ -96,8 +96,8 @@ header {
 
 #close-btn {
     position: absolute;
-    top: 26px; 
-    right: 10px; 
+    top: 26px;
+    right: 10px;
     z-index: 1;
     background: transparent;
     border: none;
@@ -314,6 +314,12 @@ select:focus {
 
 }
 
+.body-h2-quary{
+    font-size: 45px;
+    font-weight: bold;
+    font-family:  "Playfair Display", serif;
+}
+
 .body-h1 {
     font-size: 50px;
     text-align: center;
@@ -342,7 +348,7 @@ select:focus {
     cursor: pointer;
     color: rgb(0, 0, 0);
     margin-left: 47%;
-    
+
 }
 
 
@@ -674,3 +680,163 @@ footer .map {
     opacity: 0.2;
     z-index: -1;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================== media quries ============================================================================================== */
+
+
+
+@media screen and (max-width: 575px) {
+    /* #conteiner {
+        grid-template-columns: repeat(1, 1fr);
+    } */
+
+    #offer-card-1 {
+        display: none;
+    }
+
+    .box {
+        display: none;
+    }
+
+    /* /* #carouselExampleInterval .carousel-item img {
+        height: 700px;
+    
+    } */
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(1) img {
+        content: url("/Assest/Frame\ 19.png");
+    }
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(2) img {
+        content: url("/Assest/Frame\ 20.png");
+    }
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(3) img {
+        content: url("/Assest/Frame\ 21.png");
+    }
+
+
+    #check {
+        display: block;
+        margin-top: 8%;
+        margin-left: 28%;
+        margin-right: 28%;
+
+    }
+
+    /* 
+    #about-us .body-h2::before {
+        content: "MOONNIGHT HITEL";
+        display: block; 
+    } */
+
+    #about-us .body-h2 {
+        display: none;
+    }
+
+    #about-us .body-h1 {
+        display: none;
+    }
+
+    #about-us .body-h2-quary {
+        text-align: center;
+        margin-top: 6%;
+        display: block;
+    }
+
+    .body-p{
+        margin-top: 5%;
+       width: 500px;
+     margin-left: 5%;
+       
+    }
+
+    #readmore{
+        display: none;
+    }
+
+    /* .container{
+        display: none;
+    } */
+
+    .read-more-content p{
+        margin-top: 30%;
+    }
+
+    .choiceingUs-text h1{
+        margin-top: 30%;
+        font-size:30px;
+    }
+
+    #visit-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* ===================== tempary deleted this
+    =================================================== */
+
+    #Ourservise{
+        display: none;
+    }
+    
+    #servise{
+        display: none;
+    }
+
+    .servise-text{
+        display: none;
+    }
+
+    /* ====================================================================================== */
+
+
+    #rooms-list{
+        margin-left: 16%;
+        grid-template-columns: repeat(1, 1fr);
+            
+    }
+
+    #offers{
+        margin-top: 10%;
+    }
+
+    
+
+   
+}
+
+
+@media screen and (min-width: 576px) {
+
+    #about-us .body-h2 {
+        display: block;
+    }
+
+    #about-us .body-h2-quary {
+        display: none;
+    }
+
+
+}

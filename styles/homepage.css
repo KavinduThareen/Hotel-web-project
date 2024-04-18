@@ -713,11 +713,8 @@ footer .map {
 
 
 
-@media screen and (max-width: 575px) {
-    /* #conteiner {
-        grid-template-columns: repeat(1, 1fr);
-    } */
-
+/* @media screen and (max-width: 575px) { */
+ @media screen and (min-width: 575px) and (max-width: 600px) {
     #offer-card-1 {
         display: none;
     }
@@ -1000,11 +997,19 @@ footer .map {
     }
     
 
+    /* ===== map ============= */
 
+    .map{
+        display: none;
+    }
 }
 
 
-@media screen and (min-width: 576px) {
+
+
+
+/* @media screen and (min-width: 576px) { */
+@media screen and (min-width: 601px) {    
 
     #about-us .body-h2 {
         display: block;
@@ -1064,6 +1069,13 @@ footer .map {
     }
 
     #gallery-seemore-btn {
+        display: block;
+    }
+
+
+    /* ==== map =============== */
+
+    .map{
         display: block;
     }
 }

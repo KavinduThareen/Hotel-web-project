@@ -512,6 +512,8 @@ select:focus {
     margin-left: 5%;
 }
 
+/* ======== 50% offer ad =================== */
+
 #offers {
     width: 100%;
     height: 200px;
@@ -797,6 +799,8 @@ footer .map {
     /* ===================== tempary deleted this
     =================================================== */
 
+    /* == pool  */
+
     .main-title {
         display: block;
     }
@@ -815,8 +819,8 @@ footer .map {
         margin-top: -50%;
 
     }
-    
-    .list{
+
+    .list {
         display: none;
     }
 
@@ -843,20 +847,25 @@ footer .map {
     /* ====================================================================================== */
 
 
+
+    /* == luctury rooms */
     #rooms-list {
         margin-left: 16%;
         grid-template-columns: repeat(1, 1fr);
 
     }
 
-    .rooms-titel{
+    .rooms-titel {
         margin-top: 25%;
     }
 
+    /*  offer  */
 
     #offers {
         margin-top: 10%;
     }
+
+    /* == chooes us == */
 
     .ChooseUs-titel-2 {
         display: block;
@@ -866,6 +875,46 @@ footer .map {
         display: none;
     }
 
+
+
+    /*  === 50% offer ad ============================== */
+
+    #offers h1 {
+        font-size: 80px;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    #offers h4 {
+        font-size: 20px;
+        margin-top: 1%;
+        margin-left: 22%;
+    }
+
+    #offers h3 {
+      display: none;
+    }
+
+
+    #offers img { display: none;}
+ 
+    #offers .img2 {
+        display: block;
+        width: 80px;
+        margin-left: 80%;
+        margin-top: -22%;
+    }
+    
+
+    #offers .btn-lg {
+        display: none;
+    }
+
+    #offers .btn {
+        margin-left: 40%;
+        margin-top: 10%;
+       
+    }
 
 
 
@@ -902,5 +951,20 @@ footer .map {
         display: none;
     }
 
+
+    /* ===== 50% offer -======== */
+
+    
+
+    #offers .btn-lg {
+        /* margin-left: 70%;
+        margin-top: 2%; */
+        display: block;
+    }
+
+    #offers .btn {
+       display: none;
+       
+    }
 
 }

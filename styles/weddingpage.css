@@ -415,13 +415,13 @@ select:focus {
     margin-top: 4%;
 }
 
-#packeges .card{
+#packeges .card {
+    width: 1500px;
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
 }
 
 .titel {
@@ -432,8 +432,149 @@ select:focus {
 }
 
 
+
+
 footer {
     background-color: #000000;
     margin-top: 5%;
     height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ======= media qureyss ========================================================== */
+
+
+@media screen and (min-width: 575px) and (max-width: 600px) {
+
+
+    /* == navbar-titel ===================== */
+
+    .navbar-titel {
+        font-weight: bold;
+        margin-top: 2%;
+    }
+
+    .box {
+        display: none;
+    }
+
+
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(1) img {
+        content: url("/Assest/Frame\ 24.png");
+    }
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(2) img {
+        content: url("/Assest/Frame\ 23.png");
+    }
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(3) img {
+        content: url("/Assest/Frame\ 22.png");
+    }
+
+
+    /* = wedding summery ================ */
+
+
+    #body-text {
+        margin-top: 12%;
+    }
+
+    #body-text h1 {
+        display: none;
+    }
+
+    #body-text h2 {
+        display: block;
+        font-size: 40px;
+        margin-top: -10%;
+    }
+
+    #body-text p {
+        margin-top: 10%;
+    }
+
+    /* ====== check btn ========== */
+
+    #check {
+        display: block;
+        margin-top: 8%;
+        margin-left: 31%;
+        margin-right: 31%;
+    }
+
+    #offer-card-1 {
+        display: none;
+    }
+
+    .ad-overlay {
+        display: none;
+    }
+
+    .card-body h5 {
+        font-size: 10px;
+    }
+
+    .card-body {
+        width: 197px;
+        height: 190px;
+    }
+
+
+    #packeges .card {
+        width: 540px;
+        height: auto;
+        margin-left: -10%;
+    }
+
+    .col-md-8 {
+        display: none;
+    }
+
+    .card-2-summery {
+        display: block;
+    }
+
+
+    #packeges .btn {
+        margin-left: 37%;
+        margin-top: 3%;
+
+    }
+
+
+}
+
+
+@media screen and (min-width: 601px) {
+
+
+    #body-text h1 {
+        display: block;
+    }
+
+
+    #body-text h2 {
+        display: none;
+    }
+
+
+    .col-md-8 {
+        display: block;
+    }
+
+    .card-2-summery {
+        display: none;
+    }
+
+
+
 }

@@ -314,10 +314,10 @@ select:focus {
 
 }
 
-.body-h2-quary{
+.body-h2-quary {
     font-size: 45px;
     font-weight: bold;
-    font-family:  "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
 }
 
 .body-h1 {
@@ -765,14 +765,14 @@ footer .map {
         display: block;
     }
 
-    .body-p{
+    .body-p {
         margin-top: 5%;
-       width: 500px;
-     margin-left: 5%;
-       
+        width: 500px;
+        margin-left: 5%;
+
     }
 
-    #readmore{
+    #readmore {
         display: none;
     }
 
@@ -780,16 +780,16 @@ footer .map {
         display: none;
     } */
 
-    .read-more-content p{
+    .read-more-content p {
         margin-top: 30%;
     }
 
-    .choiceingUs-text h1{
+    .choiceingUs-text h1 {
         margin-top: 30%;
-        font-size:30px;
+        font-size: 30px;
     }
 
-    #visit-cards{
+    #visit-cards {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -797,34 +797,78 @@ footer .map {
     /* ===================== tempary deleted this
     =================================================== */
 
-    #Ourservise{
-        display: none;
+    .main-title {
+        display: block;
+    }
+
+    #Ourservise {
+        display: block;
+    }
+
+    #servise {
+        display: block;
+    }
+
+    .servise-text {
+        display: block;
+        margin-right: 97%;
+        margin-top: -50%;
+
     }
     
-    #servise{
+    .list{
         display: none;
     }
 
-    .servise-text{
+    .servise-text h1 {
         display: none;
+    }
+
+    .servise-text h2 {
+        display: block;
+        margin-left: 1395%;
+    }
+
+    .servise-text p {
+        font-size: 15px;
+        width: 550px;
+    }
+
+    #servise img {
+        width: 500px;
+        margin-left: 2%;
+
     }
 
     /* ====================================================================================== */
 
 
-    #rooms-list{
+    #rooms-list {
         margin-left: 16%;
         grid-template-columns: repeat(1, 1fr);
-            
+
     }
 
-    #offers{
+    .rooms-titel{
+        margin-top: 25%;
+    }
+
+
+    #offers {
         margin-top: 10%;
     }
 
-    
+    .ChooseUs-titel-2 {
+        display: block;
+    }
 
-   
+    .ChooseUs-titel-1 {
+        display: none;
+    }
+
+
+
+
 }
 
 
@@ -835,6 +879,26 @@ footer .map {
     }
 
     #about-us .body-h2-quary {
+        display: none;
+    }
+
+    .main-title {
+        display: none;
+    }
+
+    .ChooseUs-titel-2 {
+        display: none;
+    }
+
+    .ChooseUs-titel-1 {
+        display: block;
+    }
+
+    .servise-text h1 {
+        display: block;
+    }
+
+    .servise-text h2 {
         display: none;
     }
 

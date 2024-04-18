@@ -892,19 +892,21 @@ footer .map {
     }
 
     #offers h3 {
-      display: none;
+        display: none;
     }
 
 
-    #offers img { display: none;}
- 
+    #offers img {
+        display: none;
+    }
+
     #offers .img2 {
         display: block;
         width: 80px;
         margin-left: 80%;
         margin-top: -22%;
     }
-    
+
 
     #offers .btn-lg {
         display: none;
@@ -913,8 +915,60 @@ footer .map {
     #offers .btn {
         margin-left: 40%;
         margin-top: 10%;
-       
+
     }
+
+
+    /*  ===================== luxury rooms ==================================== */
+
+    #carouselExampleAutoplaying {
+        max-width: 400px;
+        /* Adjust the maximum width as needed */
+        margin: 0 auto;
+        /* Center the carousel */
+    }
+
+    #carouselExampleAutoplaying .carousel-item img {
+        width: 80%;
+        height: auto;
+       margin-left: -2%;
+    }
+
+  
+
+    .luxury-room-body-text{
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+
+    .luxury-room-body-text h4 { display: none;}
+
+
+    
+    #carouselExampleAutoplaying-2 {
+        max-width: 400px;
+        /* Adjust the maximum width as needed */
+        margin: 0 auto;
+        /* Center the carousel */
+    }
+
+    #carouselExampleAutoplaying-2 .carousel-item img {
+        width: 80%;
+        margin-top: 9%;
+        height: auto;
+       margin-left: -2%;
+    }
+
+  
+    .luxury-room-body-text-2{
+        margin-left: 15%;
+        margin-top: -79%;
+    }
+
+    .luxury-room-body-text-2 h4 {
+        display: none;
+    }
+
 
 
 
@@ -954,7 +1008,7 @@ footer .map {
 
     /* ===== 50% offer -======== */
 
-    
+
 
     #offers .btn-lg {
         /* margin-left: 70%;
@@ -963,8 +1017,13 @@ footer .map {
     }
 
     #offers .btn {
-       display: none;
-       
+        display: none;
+
     }
 
+    /* =========== luxury rooms ============================== */
+
+    .luxury-room-body-text h4 { display: block;}
+
+    .luxury-room-body-text-2 h4 { display: block;}
 }

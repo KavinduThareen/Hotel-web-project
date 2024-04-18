@@ -649,13 +649,18 @@ select:focus {
 
 }
 
+#gallery-seemore-btn{
+    margin-left: 47%;
+    margin-top: 3%;
+}
+
 
 
 /* =============== footer =============================== */
 
 
 footer {
-    margin-top: 6%;
+    margin-top: -8%;
     background-color: #000000;
     height: 500px;
 }
@@ -970,6 +975,30 @@ footer .map {
     }
 
 
+    /* ==== gallury ================================= */
+
+
+    #gallary {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Set the grid layout to have two columns */
+        gap: 5%;
+        margin-left: 10%
+    }
+    
+    #gallary .card:nth-child(n+3) {
+        display: none; /* Hide cards starting from the third one */
+    }
+
+    #gallery-seemore-btn-2 {
+        display: block;
+        margin-left: 38%;
+        margin-top: 10%;
+    }
+
+    #gallery-seemore-btn {
+        display: none;
+    }
+    
 
 
 }
@@ -1026,4 +1055,15 @@ footer .map {
     .luxury-room-body-text h4 { display: block;}
 
     .luxury-room-body-text-2 h4 { display: block;}
+
+
+    /* === gallery ================= */
+
+    #gallery-seemore-btn-2 {
+        display: none;
+    }
+
+    #gallery-seemore-btn {
+        display: block;
+    }
 }

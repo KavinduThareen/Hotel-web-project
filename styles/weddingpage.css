@@ -511,6 +511,8 @@ footer {
         margin-right: 33%;
     }
 
+    /*  === popup ad === */
+
     #offer-card-1 {
         display: none;
     }
@@ -518,6 +520,10 @@ footer {
     .ad-overlay {
         display: none;
     }
+
+
+
+    
 
     .card-body h5 {
         font-size: 10px;

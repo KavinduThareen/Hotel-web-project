@@ -472,6 +472,7 @@ footer {
         font-weight: bold;
         margin-top: 2%;
     }
+    
 
     .box {
         display: none;
@@ -489,6 +490,16 @@ footer {
 
     #carouselExampleInterval .carousel-inner .carousel-item:nth-child(3) img {
         content: url("/Assest/Frame\ 26.png");
+    }
+
+
+/* == check btn ============ */
+    
+    #check {
+        display: block;
+        margin-top: 6%;
+        margin-left: 30%;
+        margin-right: 33%;
     }
 
 

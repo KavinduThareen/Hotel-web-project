@@ -41,6 +41,26 @@ hotel-website/
 ├── reservations.html # Reservations page
 │
 ├── contact.html # Contact page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*********************************************
 │
 └── README.md # Project README file
 

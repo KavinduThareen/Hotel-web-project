@@ -358,19 +358,22 @@ select:focus {
     border-radius: 10px 0px 0px 10px;
     font-family: "EB Garamond", serif;
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
 }
 
 .box-1 h4 {
-    margin: 0; /* Remove default margin */
+    margin: 0;
+    /* Remove default margin */
 }
 
 
-#box-2{
+#box-2 {
     width: 1300px;
     height: 80px;
-    border: 1px  solid black;
+    border: 1px solid black;
     margin-left: 22.4%;
     margin-top: -4.1%;
     display: flex;
@@ -378,14 +381,15 @@ select:focus {
     align-items: center;
     border-radius: 0px 10px 10px 0px;
     font-family: "EB Garamond", serif;
-    
+
 }
 
 #box-2 h5 {
-    padding-right: 90px; /* Adjust the padding to set the desired gap */
+    padding-right: 90px;
+    /* Adjust the padding to set the desired gap */
 }
 
-#box-2 i{
+#box-2 i {
     margin-right: 1%;
     font-size: 20px;
 }
@@ -449,4 +453,43 @@ footer {
     background-color: #000000;
     margin-top: 5%;
     height: 500px;
+}
+
+
+
+
+
+
+
+/* ======= media qureys ================================================== */
+
+
+@media screen and (min-width: 575px) and (max-width: 600px) {
+
+
+
+    .navbar-titel {
+        font-weight: bold;
+        margin-top: 2%;
+    }
+
+    .box {
+        display: none;
+    }
+
+
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(1) img {
+        content: url("/Assest/Frame\ 27.png");
+    }
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(2) img {
+        content: url("/Assest/Frame\ 25.png");
+    }
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(3) img {
+        content: url("/Assest/Frame\ 26.png");
+    }
+
+
 }

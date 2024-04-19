@@ -495,7 +495,7 @@ footer {
     #body-text h2 {
         display: block;
         font-size: 40px;
-        margin-top: -10%;
+        margin-top: -14%;
     }
 
     #body-text p {
@@ -506,9 +506,9 @@ footer {
 
     #check {
         display: block;
-        margin-top: 8%;
-        margin-left: 31%;
-        margin-right: 31%;
+        margin-top: 6%;
+        margin-left: 30%;
+        margin-right: 33%;
     }
 
     #offer-card-1 {

@@ -441,7 +441,7 @@ select:focus {
 }
 
 #gallury .card {
-    margin-top: 12%;
+    margin-top: 5%;
     margin-left: 10%;
     gap: 8%;
 
@@ -472,7 +472,7 @@ footer {
         font-weight: bold;
         margin-top: 2%;
     }
-    
+
 
     .box {
         display: none;
@@ -493,14 +493,107 @@ footer {
     }
 
 
-/* == check btn ============ */
-    
-    #check {
+    /* == check btn ============ */
+
+    #check-1 {
         display: block;
         margin-top: 6%;
         margin-left: 30%;
         margin-right: 33%;
     }
+
+    /* == titel == */
+
+    .titel h1 {
+        display: none;
+    }
+
+    .titel h2 {
+        font-size: 45px;
+        margin-top: 5%;
+    }
+
+    /* = resturant summery */
+
+    .body-text p {
+        margin-top: 5%;
+        width: 500px;
+        margin-left: -9%;
+    }
+
+    .body-summery {
+        display: none;
+    }
+
+    /* == opening time ================== */
+
+    .box-1 {
+        display: none;
+    }
+
+    #box-2 {
+        display: none;
+
+    }
+
+    .food-timetable {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    ul.list-group.list-group-flush {
+        margin-top: 5%;
+
+    }
+
+    /* == gallury == */
+
+    #gallury {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -6%;
+    }
+}
+
+
+
+@media screen and (min-width: 601px) {
+
+    /* = titel = */
+    .titel h2 {
+        display: none;
+    }
+
+    #body-text h1 {
+        display: block;
+    }
+
+
+    #body-text h2 {
+        display: none;
+    }
+
+
+    .col-md-8 {
+        display: block;
+    }
+
+    .card-2-summery {
+        display: none;
+    }
+
+    #check-1 {
+        display: none;
+    }
+
+
+    ul.list-group.list-group-flush {
+        display: none;
+    }
+
+    .food-timetable {
+        display: none;
+    }
+
 
 
 }

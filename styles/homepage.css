@@ -741,7 +741,7 @@ footer .map {
     }
 
 
-    #check {
+    #check-1 {
         display: block;
         margin-top: 8%;
         margin-left: 28%;
@@ -1038,6 +1038,13 @@ footer .map {
     .servise-text h2 {
         display: none;
     }
+
+
+    #check-1{
+        display: none;
+    }
+
+    
 
 
     /* ===== 50% offer -======== */

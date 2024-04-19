@@ -504,7 +504,7 @@ footer {
 
     /* ====== check btn ========== */
 
-    #check {
+    #check-1 {
         display: block;
         margin-top: 6%;
         margin-left: 30%;
@@ -578,6 +578,10 @@ footer {
     }
 
     .card-2-summery {
+        display: none;
+    }
+
+    #check-1{
         display: none;
     }
 

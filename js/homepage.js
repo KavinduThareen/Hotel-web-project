@@ -130,11 +130,11 @@ window.onload = animateAlarm;
 
 //non stop play video js
 
-const video = document.getElementById('myVideo');
-video.addEventListener('ended', function () {
-    this.currentTime = 0;
-    this.play();
-}, false);
+// const video = document.getElementById('myVideo');
+// video.addEventListener('ended', function () {
+//     this.currentTime = 0;
+//     this.play();
+// }, false);
 
 
 // // Function to show the popup ad when the page loads
@@ -156,4 +156,26 @@ function closeCard() {
 }
 
 
+
+
+
+
+// ***************************************************************************
+
+let checkbtn = document.getElementById("check-1");
+let modalElement = document.querySelector('.modal');
+
+checkbtn.addEventListener('click', function(){
+    console.log("Hello world");
+    // alert("Hello world");
+    modalElement.style.display = 'block'; // Make the modal visible
+});
+
+
+
+let checkBtn2 = document.getElementById("check");
+
+checkBtn2.addEventListener('click' , () =>{
+    alert("Saved")
+});
 

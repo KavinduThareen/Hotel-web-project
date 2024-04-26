@@ -160,18 +160,19 @@ function closeCard() {
 
 
 
-// ***************************************************************************
+// *************************************************************** check button action ************
 
 let checkbtn = document.getElementById("check-1");
 let modalElement = document.querySelector('.modal');
 
 checkbtn.addEventListener('click', function(){
-    console.log("Hello world");
+    // console.log("Hello world");
     // alert("Hello world");
-    modalElement.style.display = 'block'; // Make the modal visible
+    modalElement.style.display = 'block'; 
 });
 
 
+// arrow function 
 
 let checkBtn2 = document.getElementById("check");
 

@@ -566,5 +566,8 @@ footer {
     .food-timetable {
         display: none;
     }
+    #check-1{
+        display: none;
+    }
 
 }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon-night-hotel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+            color: #000000;
+            font-weight: bold;
+            font-size: 30px;
+            font-family: "Poetsen One", sans-serif;
+            overflow: hidden;
+        }
+
+        #welcome-message {
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .loading-dots {
+            display: flex;
+            gap: 0.3rem;
+        }
+
+        .loading-dots div {
+            width: 0.5rem;
+            height: 0.5rem;
+            background-color: #000000;
+            border-radius: 50%;
+            animation: bounce 1s infinite;
+        }
+
+        .loading-dots div:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .loading-dots div:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .loading-dots div:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes bounce {
+            0%, 80%, 100% {
+                transform: scale(0);
+            }
+            40% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome-message">
+        Welcome to Moon Night Hotel
+        <div class="loading-dots">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <script>
+        setTimeout(function () {
+            document.getElementById('welcome-message').style.animation = 'fadeOut 2s forwards';
+            setTimeout(function () {
+                window.location.href = 'pages/homepage.html'; // Corrected file path
+            }, 1000);
+        }, 1000); // Adjust the initial delay if needed
+    </script>
+</body>
+</html>

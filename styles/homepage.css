@@ -369,6 +369,10 @@ select:focus {
 
 }
 
+#visitCard{
+    width: 29rem;
+}
+
 #visit-cards img {
     width: 60px;
 }
@@ -505,6 +509,10 @@ select:focus {
 .rooms-titel p {
     text-align: center;
     font-size: 30px;
+}
+
+#roomCard{
+    width: 25rem;
 }
 
 
@@ -652,10 +660,14 @@ select:focus {
 
 }
 
-#gallery-seemore-btn{
+#galleryImg{
+    width: 28rem;
+}
+
+/* #gallery-seemore-btn{
     margin-left: 47%;
     margin-top: 3%;
-}
+} */
 
 
 
@@ -663,7 +675,7 @@ select:focus {
 
 
 footer {
-    margin-top: -8%;
+    margin-top: -4%;
     background-color: #000000;
     height: 500px;
 }
@@ -717,7 +729,7 @@ footer .map {
 
 
 /* @media screen and (max-width: 575px) { */
- @media screen and (min-width: 575px) and (max-width: 600px) {
+ @media screen and (max-width: 575px) {
     #offer-card-1 {
         display: none;
     }
@@ -1014,80 +1026,360 @@ footer .map {
 
 
 /* @media screen and (min-width: 576px) { */
-@media screen and (min-width: 601px) {    
+@media screen and (min-width: 576px) and (max-width: 700px) {
+
+    #offer-card-1 {
+        display: none;
+    }
+
+    .box {
+        display: none;
+    }
+
+    /* /* #carouselExampleInterval .carousel-item img {
+        height: 700px;
+    
+    } */
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(1) img {
+        content: url("/Assest/Frame\ 19.png");
+    }
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(2) img {
+        content: url("/Assest/Frame\ 20.png");
+    }
+
+    #carouselExampleInterval .carousel-inner .carousel-item:nth-child(3) img {
+        content: url("/Assest/Frame\ 21.png");
+    }
+
+
+    #check-1 {
+        display: block;
+        margin-top: 8%;
+        margin-left: 35%;
+        margin-right: 25%;
+
+    }
+
+    /* 
+    #about-us .body-h2::before {
+        content: "MOONNIGHT HITEL";
+        display: block; 
+    } */
 
     #about-us .body-h2 {
-        display: block;
+        display: none;
+    }
+
+    #about-us .body-h1 {
+        display: none;
     }
 
     #about-us .body-h2-quary {
-        display: none;
-    }
-
-    .main-title {
-        display: none;
-    }
-
-    .ChooseUs-titel-2 {
-        display: none;
-    }
-
-    .ChooseUs-titel-1 {
+        text-align: center;
+        margin-top: 6%;
         display: block;
     }
 
-    .servise-text h1 {
-        display: block;
-    }
+    .body-p {
+        margin-top: 5%;
+        width: 500px;
+        margin-left: 5%;
 
-    .servise-text h2 {
-        display: none;
-    }
-
-
-    #check-1{
-        display: none;
     }
 
     
 
+    #readmore {
+        display: none;
+    }
 
-    /* ===== 50% offer -======== */
+    /* .container{
+        display: none;
+    } */
 
+    .read-more-content p {
+        margin-top: 30%;
+    }
+
+    .choiceingUs-text h1 {
+        margin-top: 30%;
+        font-size: 30px;
+    }
+
+    #visit-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #visitCard{
+        width: 25rem;
+        margin-left: 9%;
+    }
+
+   
+
+
+
+    /* ===================== tempary deleted this
+    =================================================== */
+
+
+     /* == pool  */
+
+   
+
+     .main-title {
+        display: block;
+    }
+
+    #Ourservise {
+        display: block;
+    }
+
+    #servise {
+        display: block;
+    }
+
+    .servise-text {
+        display: block;
+        margin-right: 98%;
+        margin-top: -42%;
+
+    }
+
+    .list {
+        display: none;
+    }
+
+    .servise-text h1 {
+        display: none;
+    }
+
+    .servise-text h2 {
+        display: block;
+        margin-left: 1895%;
+    }
+
+    .servise-text p {
+        font-size: 15px;
+        width: 550px;
+        margin-left: 560%;
+        justify-content: center;
+    }
+
+    #servise img {
+        width: 550px;
+        margin-left: 1%;
+    }
+
+    /* ====================================================================================== */
+
+
+
+    /* == luctury rooms */
+    #rooms-list {
+        margin-left: 16%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5%;
+    }
+
+    .rooms-titel {
+        margin-top: 25%;
+    }
+
+    #roomCard{
+        width: 15rem;
+        margin-left: -19%;
+    }
+
+
+
+    /*  offer  */
+
+    #offers {
+        margin-top: 10%;
+    }
+
+    /* == chooes us == */
+
+    .ChooseUs-titel-2 {
+        display: block;
+    }
+
+    .ChooseUs-titel-1 {
+        display: none;
+    }
+
+
+
+    /*  === 50% offer ad ============================== */
+
+    #offers h1 {
+        font-size: 80px;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    #offers h4 {
+        font-size: 20px;
+        margin-top: 1%;
+        margin-left: 22%;
+    }
+
+    #offers h3 {
+        display: none;
+    }
+
+
+    #offers img {
+        display: none;
+    }
+
+    #offers .img2 {
+        display: block;
+        width: 80px;
+        margin-left: 80%;
+        margin-top: -22%;
+    }
 
 
     #offers .btn-lg {
-        /* margin-left: 70%;
-        margin-top: 2%; */
-        display: block;
+        display: none;
     }
 
     #offers .btn {
-        display: none;
+        margin-left: 40%;
+        margin-top: 10%;
 
     }
 
-    /* =========== luxury rooms ============================== */
 
-    .luxury-room-body-text h4 { display: block;}
+    /*  ===================== luxury rooms ==================================== */
 
-    .luxury-room-body-text-2 h4 { display: block;}
+    #luxury-room {
+        background-color: #f3f3f3;
+        height: 200%;
+    }
 
 
-    /* === gallery ================= */
+    #carouselExampleAutoplaying {
+        max-width: 500px;
+        /* Adjust the maximum width as needed */
+        margin: 0 auto;
+        /* Center the carousel */
+        justify-content: center; /* Center the grid horizontally */
+        margin: 0 auto; /* Center the container horizontally */
+    }
+
+    #carouselExampleAutoplaying .carousel-item img {
+        width: 80%;
+        height: auto;
+       margin-left: -2%;
+    }
+
+    .luxury-room-body-text h5 {
+        margin-top: -5%;
+     }
+
+  
+
+    .luxury-room-body-text{
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .luxury-room-body-text-2 h5 {
+        margin-top: 12%;
+     }
+
+
+    .luxury-room-body-text-2 .card {
+            margin-top: 5%;
+    }
+
+
+    .luxury-room-body-text h4 { display: none;}
+
+
+    
+    #carouselExampleAutoplaying-2 {
+        max-width: 500px;
+        /* Adjust the maximum width as needed */
+        margin: 0 auto;
+        /* Center the carousel */
+        justify-content: center; /* Center the grid horizontally */
+        margin: 0 auto; /* Center the container horizontally */
+    }
+
+    #carouselExampleAutoplaying-2 .carousel-item img {
+        width: 80%;
+        margin-top: 9%;
+        height: auto;
+       margin-left: -2%;
+    }
+
+  
+    .luxury-room-body-text-2{
+        margin-left: 15%;
+        margin-top: -68%;
+    }
+
+    .luxury-room-body-text-2 h4 {
+        display: none;
+    }
+
+
+    /* ==== gallury ================================= */
+
+    #gallary {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Set the grid layout to have two columns */
+        gap: 5%;
+        justify-content: center; /* Center the grid horizontally */
+        margin: 0 auto; /* Center the container horizontally */
+        width: 80%; /* Adjust the width as needed */
+    }
+    
+
+
+    #galleryImg{
+        width: 15rem;
+        margin-left: -5%;
+    }
+    
+    
+    #gallary .card:nth-child(n+3) {
+        display: block; 
+        height: 100%;
+    }
 
     #gallery-seemore-btn-2 {
-        display: none;
+        display: block;
+        margin-left: 38%;
+        margin-top: 10%;
     }
 
     #gallery-seemore-btn {
-        display: block;
+        display: none;
+    }
+
+    #gallery-seemore-btn-2{
+       display: none;
     }
 
 
-    /* ==== map =============== */
+    /* -- footer -------------------- */
+    
+    footer {
+        margin-top: 20%;
+        background-color: #000000;
+        height: 300px;
+    }
+
+    /* ===== map ============= */
 
     .map{
-        display: block;
+        display: none;
     }
 }
